@@ -40,6 +40,6 @@ gulp.task('production', function(){
   .pipe(gulp.dest('assets/js'));
 });
 
-gulp.task('default', function(){
-  gulp.watch('assets/src/**', ['css', 'js']);
+gulp.task('default', ['production'], function(){
+  // gulp.watch('assets/src/**', ['css', 'js']);
 });
