@@ -41,5 +41,5 @@ gulp.task('production', function(){
 });
 
 gulp.task('default', ['production'], function(){
-  // gulp.watch('assets/src/**', ['css', 'js']);
+   gulp.watch('assets/src/**', ['css', 'js']);
 });
