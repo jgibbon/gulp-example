@@ -4,7 +4,7 @@
   "description": "A Simple Example Using Gulp",
   "main": "Gulpfile.js",
   "scripts": {
-    "test": "gulp"
+    "production": "gulp production"
   },
   "repository": {
     "type": "git",
